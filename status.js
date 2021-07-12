@@ -14,7 +14,6 @@ check(Meteor.settings.status, Match.ObjectIncluding({
 const { active, interval, url, secret, quietAfter = 5 } = Meteor.settings.status
 
 if (active) {
-
   Meteor.startup(() => {
     let origin = Meteor.absoluteUrl()
 
@@ -81,5 +80,4 @@ if (active) {
       })
     }, interval)
   })
-
 }
