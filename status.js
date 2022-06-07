@@ -1,6 +1,6 @@
 import { Meteor } from 'meteor/meteor'
 import { check, Match } from 'meteor/check'
-import { HTTP } from 'meteor/jkuester:http'
+import { HTTP } from 'meteor/http'
 import os from 'os'
 import { createHmac } from 'crypto'
 

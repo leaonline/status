@@ -13,6 +13,6 @@ Package.describe({
 
 Package.onUse(function (api) {
   api.versionsFrom('1.6')
-  api.use('ecmascript', 'server', 'jkuester:http')
+  api.use('ecmascript', 'server')
   api.mainModule('status.js', 'server')
 })
